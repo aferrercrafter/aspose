@@ -14,7 +14,7 @@ And provides you 3 different importing modes, including, keep the source formatt
 
         NodeImporter importer = new NodeImporter(document, newDoc, ImportFormatMode.KeepSourceFormatting);
 
-You use the table of the existing document as the reference to let the ```NodeImporter``` get the nodes copy without loosing the format, and use that copy to create your new documents sections. Here is a example code snippet that will provide you the expected output:
+You use the table of the existing document as the reference to let the ```NodeImporter``` get the nodes copy without loosing the format, and use that copy to create your new documents sections. Here is a example code snippet that will provide you the expected output: 
 
         var sectionIndex = 0;
         var lastSectionIndex = table.Rows.Count - 1;
