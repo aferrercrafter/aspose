@@ -9,7 +9,7 @@ tried using the property RestartPageNumbering, but I still don’t get the expec
 
 # Response
 
-The ```RestartPageNumbering``` was indeed the correct path to follow, the problem you are facing is that the existing page numbers of the provided document are simple text (a paragraph node). Here is a code snippet that will reset your page numbers: 
+The ```RestartPageNumbering``` was indeed the correct path to follow, the problem you are facing is that the existing page numbers of the provided document are simple text (a paragraph node). Here is a example code snippet that will reset your page numbers: 
 
         ...
         var builder = new DocumentBuilder(document);
